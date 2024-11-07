@@ -54,7 +54,7 @@ object Dependencies {
   val scalaXml = "org.scala-lang.modules" %% "scala-xml" % "2.1.0"
   val scalaTest = "org.scalatest" %% "scalatest" % "3.2.0"
   val scalaVerify = "com.eed3si9n.verify" %% "verify" % "1.0.0"
-  val scalaCheck = "org.scalacheck" %% "scalacheck" % "1.14.0"
+  val scalaCheck = "org.scalacheck" %% "scalacheck" % "1.14.3"
   val sjsonnew = Def.setting {
     "com.eed3si9n" %% "sjson-new-core" % contrabandSjsonNewVersion.value
   }
