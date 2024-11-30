@@ -1,11 +1,11 @@
 /**
- * This code is generated using [[https://www.scala-sbt.org/contraband/ sbt-contraband]].
+ * This code is generated using [[https://www.scala-sbt.org/contraband]].
  */
 
 // DO NOT EDIT MANUALLY
 package sbt.librarymanagement
 import _root_.sjsonnew.{ Unbuilder, Builder, JsonFormat, deserializationError }
-trait FileRepositoryFormats { self: sbt.librarymanagement.PatternsFormats with sbt.librarymanagement.FileConfigurationFormats with sjsonnew.BasicJsonProtocol =>
+trait FileRepositoryFormats { self: sbt.librarymanagement.PatternsFormats with sjsonnew.BasicJsonProtocol with sbt.librarymanagement.FileConfigurationFormats =>
 implicit lazy val FileRepositoryFormat: JsonFormat[sbt.librarymanagement.FileRepository] = new JsonFormat[sbt.librarymanagement.FileRepository] {
   override def read[J](__jsOpt: Option[J], unbuilder: Unbuilder[J]): sbt.librarymanagement.FileRepository = {
     __jsOpt match {
